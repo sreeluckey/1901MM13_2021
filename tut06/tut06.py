@@ -1,5 +1,3 @@
-
-
 def regex_renamer():
 
 	# Taking input from the user
@@ -35,4 +33,3 @@ def regex_renamer():
 		    os.rename(f"corrected_srt\\{dictn[webseries_num]}\\{file_name}", f"corrected_srt\\{dictn[webseries_num]}\\{dictn[webseries_num]} - Season {nums_list[0].zfill(season_padding)} Episode {nums_list[1].zfill(episode_padding)} -{ep_name[-1]}.{words_list[-1]}")
 
 regex_renamer()
-
